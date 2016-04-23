@@ -13,11 +13,11 @@ class Car:
 		#the most severe breaking the driver is willing to undertake, b_n
 		self.brake = 0
 		#the size of the vehicle plus a margin that drivers are not willing to intrude
-		#even when stopped
+		#even when stopped, s_n
 		self.size = 0
-		#the location of the front of this vehicle at time t
+		#the location of the front of this vehicle at time t, x_n(t)
 		self.pos = 0
-		#the speed of this car at time t
+		#the speed of this car at time t, v_n(t)
 		self.speed = 0
 
 	def setSpeed(self, time):
