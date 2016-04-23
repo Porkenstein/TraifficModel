@@ -3,7 +3,7 @@
 class Car:
 	#member functions 
 	def __init__(self):
-		'''Constructor'''
+		'''Constructor initialized member variables.'''
 		#the speed that the driver would like to go, V_n
 		self.vel = 0
 		#a reference to the car that this car is following, n-1
@@ -34,5 +34,5 @@ class Car:
 
 	
 
-	#member variables
+
 	
