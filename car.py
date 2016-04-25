@@ -2,8 +2,9 @@
 
 class Car:
 	#member functions 
-	def __init__(self):
+	def __init__(self, id):
 		'''Constructor initialized member variables.'''
+		self.id = id
 		#the speed that the driver would like to go, V_n
 		self.vel = 0
 		#a reference to the car that this car is following, n-1
@@ -20,10 +21,16 @@ class Car:
 		#the speed of this car at time t, v_n(t)
 		self.speed = 0
 
+	def update(self, tstep):
+		#updates, not sure if this should be in here and what params it should have
+		pass
+		
 	def setSpeed(self, time):
 		'''A function that takes time and sets the speed value of the car.'''
 		#self.speed = v_n(t)
 		pass
+	def __str__(self):
+		return "car " + str(self.id)
 
 	def setPosition(self, time):
 		'''A function that takes time and sets the position value of the car.'''
