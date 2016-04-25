@@ -22,24 +22,19 @@ class Car:
 		self.speed = 0
 
 	def update(self, tstep):
-		#updates, not sure if this should be in here and what params it should have
+		#setSpeed
+		#setPosition
 		pass
 		
 	def setSpeed(self, time):
 		'''A function that takes time and sets the speed value of the car.'''
 		#self.speed = v_n(t)
 		pass
+		
 	def __str__(self):
-		return "car " + str(self.id)
+		return "car " + str(self.id) + ": Speed " + str(self.speed) + ""
 
 	def setPosition(self, time):
 		'''A function that takes time and sets the position value of the car.'''
 		#self.pos = x_n(t)
 		pass
-
-
-
-	
-
-
-	
