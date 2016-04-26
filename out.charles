@@ -1,0 +1,2652 @@
+
+
+T = 0------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 0------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 0------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 0------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 1------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 1------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 1------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 1------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 2------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 2------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 2------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 2------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 3------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 3------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 3------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 3------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 4------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 4------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 4------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 4------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 5------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 5------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 5------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 5------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 6------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 6------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 6------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 6------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 7------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 7------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 7------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 7------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 8------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 8------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 8------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 8------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 9------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 9------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 9------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 9------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 10------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 10------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 10------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 10------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 11------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 11------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 11------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 11------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 12------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 12------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 12------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 12------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 13------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 13------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 13------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 13------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 14------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 14------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 14------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 14------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 15------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 15------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 15------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 15------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 16------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 16------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 16------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 16------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 17------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 17------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 17------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 17------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 18------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 18------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 18------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 18------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 19------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 19------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 19------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 19------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 20------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 20------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 20------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 20------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 21------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 21------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 21------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 21------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 22------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 22------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 22------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 22------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 23------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 23------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 23------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 23------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 24------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 24------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 24------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 24------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 25------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 25------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 25------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 25------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 26------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 26------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 26------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 26------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 27------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 27------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 27------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 27------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 28------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 28------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 28------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 28------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 29------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 29------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 29------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 29------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 30------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 30------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 30------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 30------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 31------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 31------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 31------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 31------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 32------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 32------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 32------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 32------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 33------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 33------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 33------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 33------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 34------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 34------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 34------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 34------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 35------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 35------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 35------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 35------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 36------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 36------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 36------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 36------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 37------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 37------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 37------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 37------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 38------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 38------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 38------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 38------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 39------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 39------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 39------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 39------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 40------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 40------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 40------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 40------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 41------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 41------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 41------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 41------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 42------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 42------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 42------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 42------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 43------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 43------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 43------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 43------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 44------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 44------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 44------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 44------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 45------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 45------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 45------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 45------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 46------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 46------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 46------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 46------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 47------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 47------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 47------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 47------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 48------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 48------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 48------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 48------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 49------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 49------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 49------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 49------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0
+
+
+T = 50------------
+|  Lane 0, car 0: Speed 0
+|  Lane 0, car 1: Speed 0
+|  Lane 0, car 2: Speed 0
+|  Lane 0, car 3: Speed 0
+|  Lane 0, car 4: Speed 0
+|  Lane 0, car 5: Speed 0
+|  Lane 0, car 6: Speed 0
+|  Lane 0, car 7: Speed 0
+|  Lane 0, car 8: Speed 0
+|  Lane 0, car 9: Speed 0
+
+
+T = 50------------
+|  Lane 1, car 0: Speed 0
+|  Lane 1, car 1: Speed 0
+|  Lane 1, car 2: Speed 0
+|  Lane 1, car 3: Speed 0
+|  Lane 1, car 4: Speed 0
+|  Lane 1, car 5: Speed 0
+|  Lane 1, car 6: Speed 0
+|  Lane 1, car 7: Speed 0
+|  Lane 1, car 8: Speed 0
+|  Lane 1, car 9: Speed 0
+
+
+T = 50------------
+|  Lane 2, car 0: Speed 0
+|  Lane 2, car 1: Speed 0
+|  Lane 2, car 2: Speed 0
+|  Lane 2, car 3: Speed 0
+|  Lane 2, car 4: Speed 0
+|  Lane 2, car 5: Speed 0
+|  Lane 2, car 6: Speed 0
+|  Lane 2, car 7: Speed 0
+|  Lane 2, car 8: Speed 0
+|  Lane 2, car 9: Speed 0
+
+
+T = 50------------
+|  Lane 3, car 0: Speed 0
+|  Lane 3, car 1: Speed 0
+|  Lane 3, car 2: Speed 0
+|  Lane 3, car 3: Speed 0
+|  Lane 3, car 4: Speed 0
+|  Lane 3, car 5: Speed 0
+|  Lane 3, car 6: Speed 0
+|  Lane 3, car 7: Speed 0
+|  Lane 3, car 8: Speed 0
+|  Lane 3, car 9: Speed 0

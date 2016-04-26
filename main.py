@@ -42,17 +42,35 @@ if __name__ == "__main__":
 	print("||| \n||| TRAFFIC JAMBULATOR 1000\n|||   by Derek Stotz and Charles Parsons\n|||\n")
 	
 	ncars = []
-	
-	len = int(input("Enter length:         "))
-	ncars.append(int(input("Enter ncars in lane1: ")))
-	ncars.append(int(input("Enter ncars in lane2: ")))
-	ncars.append(int(input("Enter ncars in lane3: ")))
-	ncars.append(int(input("Enter ncars in lane4: ")))
-	tstep = int(input("Enter timestep:       "))
-	tmax = int(input("Enter timemax:        "))
-	# lanes = int(input("Enter lanes: ")) the model is specifically for I-60 between the 71 and the 15
-	foutname = input("Enter output file:    ")
-	
+	foutname = ""
+	tstep = 0
+	road_len = 0
+	tmax = 0
+
+	# check for input file
+	if len(argv) > 1:
+		fin = open(argv[1], mode="r")
+		lines = fin.read().splitlines()
+		road_len = int(lines[0])
+		for i in range(1, 5):
+			ncars.append(int(lines[i]))
+		tstep = int(lines[5])
+		tmax = int(lines[6])
+		roadname = lines[7]
+		foutname = lines[8]
+		
+	else:
+		road_len = int(input("Enter road_length:         "))
+		ncars.append(int(input("Enter ncars in lane1: ")))
+		ncars.append(int(input("Enter ncars in lane2: ")))
+		ncars.append(int(input("Enter ncars in lane3: ")))
+		ncars.append(int(input("Enter ncars in lane4: ")))
+		tstep = int(input("Enter timestep:       "))
+		tmax = int(input("Enter timemax:        "))
+		# lanes = int(input("Enter lanes: ")) the model is specifically for I-60 between the 71 and the 15
+		roadname = input("Enter road file:    ")
+		foutname = input("Enter output file:    ")
+		
 	lanes = [[],[],[],[]] # 4 lanes
 	pcar = None
 	ccar = None
@@ -62,7 +80,8 @@ if __name__ == "__main__":
 			pcar = ccar
 			ccar = Car(i)
 			ccar.prev_car = pcar
-			pcar.next_car = ccar
+			if not pcar is None:
+				pcar.next_car = ccar
 			lanes[j].append(ccar)
 			if DEBUG: print("Making Car " + str(i))
 			
@@ -76,7 +95,7 @@ if __name__ == "__main__":
 			for c in lanes[j]:
 				c.update(tstep)
 				fout.write("|  Lane "+str(j) + ", " + str(c) + "\n")
-			if OUTPUT or DEBUG: print("|  Lane "+str(j) + ", " + str(c) + "\n")
+				if OUTPUT or DEBUG: print("|  Lane "+str(j) + ", " + str(c) + "\n")
 				
 	# finalize
 	fout.close()
