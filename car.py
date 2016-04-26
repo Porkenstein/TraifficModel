@@ -23,7 +23,7 @@ class Car:
 		#the speed of this car at time t, v_n(t)
 		self.speed = 0
 
-	def update(self, tstep, lane):
+	def update(self, tstep):
 		#setSpeed
 		#setPosition
 		pass
