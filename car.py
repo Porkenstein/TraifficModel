@@ -8,7 +8,9 @@ class Car:
 		#the speed that the driver would like to go, V_n
 		self.vel = 0
 		#a reference to the car that this car is following, n-1
-		self.next_car = 0
+		self.next_car = None
+		#a reference to the car following this one
+		self.prev_car = None
 		#the maximum acceleration the driver is willing to undertake, a_n
 		self.accel = 0
 		#the most severe breaking the driver is willing to undertake, b_n
@@ -21,7 +23,7 @@ class Car:
 		#the speed of this car at time t, v_n(t)
 		self.speed = 0
 
-	def update(self, tstep):
+	def update(self, tstep, lane):
 		#setSpeed
 		#setPosition
 		pass
@@ -37,4 +39,9 @@ class Car:
 	def setPosition(self, time):
 		'''A function that takes time and sets the position value of the car.'''
 		#self.pos = x_n(t)
+		pass
+
+	@staticmethod
+	def changeLane(car, lane):
+
 		pass
