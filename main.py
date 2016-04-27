@@ -45,9 +45,12 @@ _sd_dict = {}
 getNormal(key):
 	return numpy.random.normal(_mu_dict[key], _sd_dict[key])
 
+createPmap(): #creates a random Pmap based on what's in _mu_dict and _sd_dict
+	return dict()
+	
 checkCreateNewCar(pcreate, mindist, lane):
 	if (lane[0].getPosition > (lane[0].size + mindist)) and (random.random() < pcreate):
-		lanes[l].insert(0, Car())
+		lanes[l].insert(0, Car(createPmap()))
 		return 1
 	return 0
 		
