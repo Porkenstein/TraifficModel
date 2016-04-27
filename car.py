@@ -1,4 +1,5 @@
 # car.py
+import math
 
 class Car:
 	#member functions 
@@ -31,7 +32,10 @@ class Car:
 	def setSpeed(self, time):
 		'''A function that takes time and sets the speed value of the car.'''
 		#self.speed = v_n(t)
-		pass
+		self.speed = min(self.speed + 2.5 * self.accel * Car.TAU * (1 - (self.speed / self.vel)) * \
+			math.sqrt(0.025 + self.speed / self.vel), self.brake * Car.TAU + math.sqrt(self.brake**2 \
+			* Car.TAU**2 - self.brake * (2 * (self.prev_car.pos - self.prev_car.size - self.pos) - \
+			self.speed * Car.TAU - (self.prev_car.speed**2) / min(-3.0, (self.brake - 3.0) / 2))))
 		
 	def __str__(self):
 		return "car " + str(self.id) + ": Speed " + str(self.speed) + ""
@@ -45,3 +49,8 @@ class Car:
 	def changeLane(car, lane):
 
 		pass
+
+
+	#class variables
+	#reaction time
+	TAU = 0
