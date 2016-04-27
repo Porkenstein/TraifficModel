@@ -2,11 +2,15 @@
 from car import *
 from math import *
 from sys import *
+import numpy
+import random
 
 DEBUG = True  #output debug info
 OUTPUT = True #output at each time step
 NLANES = 4
 
+# 0 position is beginning of the lane
+#
 # sunset increases accident frequency due to poor visibility
 # model from noon - 7pm
 # each car has a set of probabilities for different random events to happen
@@ -35,12 +39,33 @@ NLANES = 4
 #	motorcyclist (more aggressive, shorter)
 #	bus (longer, more aggressive)
 #	semi truck (slower, longer, better driver)
+_mu_dict = {}
+_sd_dict = {}
 
+getNormal(key):
+	return numpy.random.normal(_mu_dict[key], _sd_dict[key])
 
+checkCreateNewCar(pcreate, mindist, lane):
+	if (lane[0].getPosition > (lane[0].size + mindist)) and (random.random() < pcreate):
+		lanes[l].insert(0, Car())
+		return 1
+	return 0
+		
+checkUpdateCar(car, c, lanes, l, tstep, t, road_len):
+	#TODO change car attributes
+	car.update(tstep)
+	#TODO check lane switch
+	# check to see if the car is out of bounds and needs to be removed
+	if car.getPosition() >= road_len:
+		del lanes[j][c]
+		return 0
+	return 1
+		
 
 if __name__ == "__main__":
 	print("||| \n||| TRAFFIC JAMBULATOR 1000\n|||   by Derek Stotz and Charles Parsons\n|||\n")
 	
+	mu_dict = {} # a dictionary to hold probability keys
 	ncars = []
 	foutname = ""
 	tstep = 0
@@ -78,7 +103,7 @@ if __name__ == "__main__":
 	for j in range(0, NLANES):
 		for i in range(0, ncars[j]):
 			pcar = ccar
-			ccar = Car(i)
+			ccar = Car()
 			ccar.prev_car = pcar
 			if not pcar is None:
 				pcar.next_car = ccar
@@ -88,14 +113,15 @@ if __name__ == "__main__":
 	fout = open(foutname, mode="w")
 	
 	# iterate at each time step
-	for i in range(0, tmax+1):
+	for t in range(0, tmax+1):
 		for j in range(0, NLANES):
-			fout.write("\n\nT = " + str(i) + "------------\n")
-			if OUTPUT or DEBUG: print("\n\nT = " + str(i) + "------------\n")
-			for c in lanes[j]:
-				c.update(tstep)
-				fout.write("|  Lane "+str(j) + ", " + str(c) + "\n")
-				if OUTPUT or DEBUG: print("|  Lane "+str(j) + ", " + str(c) + "\n")
+			fout.write("\n\nT = " + str(t) + "------------\n")
+			if OUTPUT or DEBUG: print("\n\nT = " + str(t) + "------------\n")
+			for c in range(0, len(lanes[j])):
+				car = lanes[j][c]
+				checkUpdateCar(car, c, lanes, j, t, tstep, road_len)
+				fout.write("|  Lane "+str(j) + ", " + str(car) + "\n")
+				if OUTPUT or DEBUG: print("|  Lane "+str(j) + ", " + str(car) + "\n")
 				
 	# finalize
 	fout.close()

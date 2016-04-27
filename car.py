@@ -2,14 +2,14 @@
 
 class Car:
 	#member functions 
-	def __init__(self, id):
+	def __init__(self):
 		'''Constructor initialized member variables.'''
 		self.id = id
 		#the speed that the driver would like to go, V_n
 		self.vel = 0
-		#a reference to the car that this car is following, n-1
+		#a reference to the car that this car is following, n-1.  If next_car = None, then we know that this is the first
 		self.next_car = None
-		#a reference to the car following this one
+		#a reference to the car following this one.
 		self.prev_car = None
 		#the maximum acceleration the driver is willing to undertake, a_n
 		self.accel = 0
@@ -40,7 +40,7 @@ class Car:
 		'''A function that takes time and sets the position value of the car.'''
 		#self.pos = x_n(t)
 		pass
-
+		
 	@staticmethod
 	def changeLane(car, lane):
 
