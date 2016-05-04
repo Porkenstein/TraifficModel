@@ -46,7 +46,7 @@ class Car:
 	def __str__(self):
 		return "car " + str(self.id) + ": Speed " + str(self.speed) + ""
 
-	def setPosition(self, time, tstep):
+	def setPosition(self, tstep):
 		'''A function that takes time and time step, and sets the position value of the car.
 		   Uses Butchers Method from the Gipps' Model Wikipedia page.'''
 		k1 = self.speed_prev
