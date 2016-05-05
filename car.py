@@ -46,6 +46,9 @@ class Car:
 		#self.pos = x_n(t)
 		pass
 		
+	def getPosition(self)
+		return -1
+		
 	@staticmethod
 	def changeLane(car, lane):
 
