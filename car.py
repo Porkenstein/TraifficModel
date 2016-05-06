@@ -7,15 +7,17 @@ class Car:
 		'''Constructor initialized member variables.'''
 		self.id = id
 		#the speed that the driver would like to go, V_n
-		self.vel = 0
+		#this is set by a normal distribution centered on 110 km/h
+		#with standard deviation of 10 km/h
+		self.vel = np.random.normal(110, 10)
 		#a reference to the car that this car is following, n-1.  If next_car = None, then we know that this is the first
 		self.next_car = None
 		#a reference to the car following this one.
 		self.prev_car = None
 		#the maximum acceleration the driver is willing to undertake, a_n
-		self.accel = 0
+		self.accel = np.random.normal(5, 1)
 		#the most severe breaking the driver is willing to undertake, b_n
-		self.brake = 0
+		self.brake = np.random.normal(-5, 1)
 		#the size of the vehicle plus a margin that drivers are not willing to intrude
 		#even when stopped, s_n
 		self.size = 0
@@ -31,9 +33,10 @@ class Car:
 		self.p_dict = p_dict
 
 	def update(self, tstep):
-		#setSpeed
 		#setPosition
-		pass
+		setPosition(tstep)
+		#setSpeed
+		setSpeed(tstep)
 		
 	def setSpeed(self, time):
 		'''A function that takes time and sets the speed value of the car.'''
