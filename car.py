@@ -3,7 +3,7 @@ import math
 
 class Car:
 	#member functions 
-	def __init__(self, pmap):
+	def __init__(self, p_dict):
 		'''Constructor initialized member variables.'''
 		self.id = id
 		#the speed that the driver would like to go, V_n
@@ -27,7 +27,8 @@ class Car:
 		self.speed = 0
 		#the speed of this car at time t - tstep, v_n(t-tstep)
 		self.speed_prev = 0
-		# pmap contains the probabilities for different events
+		# contains the probabilities for different events relevent to this single car
+		self.p_dict = p_dict
 
 	def update(self, tstep):
 		#setSpeed
@@ -58,14 +59,12 @@ class Car:
 		self.pos = self.pos_prev + (1 / 90) * (7 * k1 + 32 * k3 + 12 * k4 + 32 * k5 + \
 			       7 * k6) * tstep
 		
-	def getPosition(self)
+	def getPosition(self):
 		return -1
 		
 	@staticmethod
 	def changeLane(car, lane):
-
 		pass
-
 
 	#class variables
 	#reaction time

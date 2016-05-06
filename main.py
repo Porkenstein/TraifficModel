@@ -8,11 +8,13 @@ import random
 DEBUG = True  #output debug info
 OUTPUT = True #output at each time step
 NLANES = 4
+TMIN = 0
+TMAX = 25200
 
 # 0 position is beginning of the lane
 #
 # sunset increases accident frequency due to poor visibility
-# model from noon - 7pm
+# model from noon - 7pm,  t = 0 to 25200 (seconds)
 # each car has a set of probabilities for different random events to happen
 # random resolution is done in main, but the actions themselves are done as static functions from Car
 # Random events: accidents (2 adjacent cars), triggered randomly when updating, passing, changing lanes, or ESCPECIALLY when another accident occurs. blocks the lane
@@ -39,30 +41,94 @@ NLANES = 4
 #	motorcyclist (more aggressive, shorter)
 #	bus (longer, more aggressive)
 #	semi truck (slower, longer, better driver)
+
+# contains driver archetypes, which are just p_maps starting with their p to create.  A dictionary of dictionaries.
+_archetypes_mu = []
+_archetypes_sd = []
+
+# contains the mean probabilities and their standard deviations for all random events
 _mu_dict = {}
 _sd_dict = {}
+# when generating random event, use normal distribution with above properties.
+#    Compare to the P of the car's event from car.p_dict
 
-getNormal(key):
-	return numpy.random.normal(_mu_dict[key], _sd_dict[key])
+_sunset = 0
+_accidnet_mod = 0 # increases or decreases globally, making all drivers worse at avoiding accidents.  increases during sunset and poor weather.
 
-createPmap(): #creates a random Pmap based on what's in _mu_dict and _sd_dict
-	return dict()
+def getNormal(key, mu_dict, sd_dict):
+	return numpy.random.normal(mu_dict[key], sd_dict[key])
 	
-checkCreateNewCar(pcreate, mindist, lane):
-	if (lane[0].getPosition > (lane[0].size + mindist)) and (random.random() < pcreate):
-		lanes[l].insert(0, Car(createPmap()))
+	
+def checkSunset():
+	#if ( time is sunset )
+	#	if (!_sunset)
+	#		_accident_mod += _mu_dict["SUNSET"]
+	#	return 1
+	#if (_sunset)
+	#	_accident_mod -= _mu_dict["SUNSET"] # consider making this continuous
+	#return 0
+	
+# RANDOM EVENTS
+#	each event is a Markov chain sharing the car and lane states.
+#	cars do the side effect, and then return if they did it or not.
+	
+def checkSingleCarAccident(car, lane):
+	return 0
+	
+def checkMultiCarAccident(car1, car2, lane):
+	return 0
+	
+def checkRoadRage(car, lane):
+	return 0
+	
+def checkWeather():
+	return 0
+	
+def checkEngineFailure(car):
+	return 0
+	
+#def createPmap(): #creates a random Pmap based on what's in _mu_dict and _sd_dict
+#	return dict()
+	
+def checkCreateNewCar(mindist, lane, t): #shared between beginning of each lane and on-ramps
+	# TODO ajust pcreate by time of day
+	pcreate = _mu_dict["NEWCAR"] * (t/TMAX)
+	if (lane[0].getPosition > (lane[0].size + mindist)) and ( < pcreate):
+		lanes[l].insert(0, createCar(t))
 		return 1
 	return 0
-		
-checkUpdateCar(car, c, lanes, l, tstep, t, road_len):
+
+def checkChangeLane(lanes, car):
+	return 0
+
+def checkTakeExit(car):
+	return 0
+	
+def updateCar(car, c, lanes, l, tstep, t, road_len):
 	#TODO change car attributes
 	car.update(tstep)
-	#TODO check lane switch
+	# resolve random events
+	checkChangeLane(lanes, car)
+	checkEngineFailure(car)
+	checkRoadRage(car, lane)
+	checkSingleCarAccident(car, lane) #check for multicar accident in the main loop
 	# check to see if the car is out of bounds and needs to be removed
 	if car.getPosition() >= road_len:
-		del lanes[j][c]
+		del lanes[l][c]
 		return 0
 	return 1
+	
+def createCar(t): # different times of day have different chances
+	pmap = {}
+	roulette = random.random()
+	rtotal = 0
+	for i in range(0, len(_archetypes_mu)):
+		rtotal += _archetypes_mu[i]["CREATE"]
+		if(rtotal >= roulette):
+			for key, value in _archetypes_mu[i]:
+				pmap[key] = getNormal(key, _archetypes_mu[i], _archetypes_sd[i]) # normal distribution to model differing behaviors
+			return car(pmap)
+	return None # shouldn't happen
 		
 
 if __name__ == "__main__":
@@ -117,12 +183,20 @@ if __name__ == "__main__":
 	
 	# iterate at each time step
 	for t in range(0, tmax+1):
+		# resolve random environmental events
+		checkWeather()
+		checkSunset()
+		
 		for j in range(0, NLANES):
+			# resolve creation of new cars
+			checkCreateNewCar(0, 0, lanes[j])
+			
 			fout.write("\n\nT = " + str(t) + "------------\n")
 			if OUTPUT or DEBUG: print("\n\nT = " + str(t) + "------------\n")
 			for c in range(0, len(lanes[j])):
 				car = lanes[j][c]
-				checkUpdateCar(car, c, lanes, j, t, tstep, road_len)
+				updateCar(car, c, lanes, j, t, tstep, road_len)
+				checkMultiCarAccident(car, car.prev_car, lanes[j]) #does the car behind this one hit this car?
 				fout.write("|  Lane "+str(j) + ", " + str(car) + "\n")
 				if OUTPUT or DEBUG: print("|  Lane "+str(j) + ", " + str(car) + "\n")
 				
