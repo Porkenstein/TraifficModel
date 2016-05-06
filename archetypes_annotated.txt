@@ -1,0 +1,37 @@
+# chance to create, avg max speed mod, 1/chance for: road rage, single car accident, engine failure, lane switch, 
+
+#	angru driver
+.1, 5, 1000, 30000, 150000, 100
+0, 5, 500, 5000, 20000, 10
+
+#	normal driver.
+.5, 3, 10000, 100000, 150000, 200 #mu
+0, 2, 500, 5000, 20000, 10 #std deviation
+
+#	stupid/inexperienced driver
+.05, 3, 5000, 50000, 75000, 200
+0, 4, 500, 5000, 20000, 20
+
+#	fantastic driver
+.05, 6, 20000, 200000, 300000, 150
+0, 2, 500, 5000, 20000, 10
+
+#	old/high person
+.1, -3, 100000, 50000, 150000, 350
+0, 3, 500, 5000, 20000, 10
+
+#	unobservant driver (intersection between inexperienced and old)
+.1, 3, 10000, 50000, 150000, 200
+0, 2, 500, 5000, 20000, 10
+
+#	speed racer.  presumably with a vanity plate and 
+.05, 10, 5000, 50000, 150000, 100
+0, 3, 500, 5000, 20000, 10
+
+#	emergency vehicle ( fantastic speed racer )
+.04, 10, 20000, 200000, 300000, 100
+0, 5, 500, 5000, 20000, 10
+
+#	drunk driver. danger will robinson
+.01, 0, 1000000, 20000, 150000, 50
+0, 5, 500, 5000, 20000, 5
