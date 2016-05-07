@@ -3,7 +3,7 @@ import math
 
 class Car:
 	#member functions 
-	def __init__(self, p_dict):
+	def __init__(self, p_dict, tau, t):
 		'''Constructor initialized member variables.'''
 		self.id = id
 		#the speed that the driver would like to go, V_n
@@ -31,6 +31,10 @@ class Car:
 		self.speed_prev = 0
 		# contains the probabilities for different events relevent to this single car
 		self.p_dict = p_dict
+		# reaction time
+		self.tau = tau
+		# creation time
+		self.t0 = t
 
 	def update(self, tstep):
 		#setPosition
@@ -42,10 +46,10 @@ class Car:
 		'''A function that takes time and sets the speed value of the car.'''
 		#self.speed = v_n(t)
 		self.speed_prev = self.speed
-		self.speed = min(self.speed + 2.5 * self.accel * Car.TAU * (1 - (self.speed / self.vel)) * \
-			math.sqrt(0.025 + self.speed / self.vel), self.brake * Car.TAU + math.sqrt(self.brake**2 \
-			* Car.TAU**2 - self.brake * (2 * (self.prev_car.pos - self.prev_car.size - self.pos) - \
-			self.speed * Car.TAU - (self.prev_car.speed**2) / min(-3.0, (self.brake - 3.0) / 2))))
+		self.speed = min(self.speed + 2.5 * self.accel * Car.self.tau * (1 - (self.speed / self.vel)) * \
+			math.sqrt(0.025 + self.speed / self.vel), self.brake * Car.self.tau + math.sqrt(self.brake**2 \
+			* Car.self.tau**2 - self.brake * (2 * (self.prev_car.pos - self.prev_car.size - self.pos) - \
+			self.speed * Car.self.tau - (self.prev_car.speed**2) / min(-3.0, (self.brake - 3.0) / 2))))
 		
 	def __str__(self):
 		return "car " + str(self.id) + ": Speed " + str(self.speed) + ""
@@ -61,14 +65,7 @@ class Car:
 		self.pos_prev = self.pos
 		self.pos = self.pos_prev + (1 / 90) * (7 * k1 + 32 * k3 + 12 * k4 + 32 * k5 + \
 			       7 * k6) * tstep
-		
-	def getPosition(self):
-		return -1
-		
+				
 	@staticmethod
 	def changeLane(car, lane):
 		pass
-
-	#class variables
-	#reaction time
-	TAU = 0
