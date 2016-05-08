@@ -1,5 +1,9 @@
 # car.py
+from car import *
 import math
+from sys import *
+import numpy
+import random
 
 class Car:
 	#member functions 
@@ -65,7 +69,9 @@ class Car:
 		self.pos_prev = self.pos
 		self.pos = self.pos_prev + (1 / 90) * (7 * k1 + 32 * k3 + 12 * k4 + 32 * k5 + \
 			       7 * k6) * tstep
-				
+	def getPosition(self):
+		return self.pos
+	
 	@staticmethod
 	def changeLane(car, lane):
 		pass

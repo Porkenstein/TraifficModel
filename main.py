@@ -5,6 +5,7 @@ from sys import *
 import numpy
 import random
 
+# constants
 DEBUG = True  #output debug info
 OUTPUT = True #output at each time step
 NLANES = 4
@@ -13,7 +14,11 @@ TMAX = 25200
 ARCHETYPEFILE = "archetypes.txt"
 SOBERREACTIONTIME = 0.5
 IMPAIREDREACTIONTIME = 1.0
-
+SUNSET = 21600 # for the sake of example, it's at 6pm
+SUNSETLENGTH = 1800 # half an hour
+SUNSETMOD = .001 # sunset increases chance of accident every second by .1%
+[SEDAN, SUV, COMPACT, MOTORCYCLE, BUS, SEMI] = range(0, 6)
+[ANGRY, NORMAL, BAD, GOOD, SLOW, UNOBSERVANT, FAST, EMERGENCY, DRUNK] = range(0,9)
 # 0 position is beginning of the lane
 #
 # sunset increases accident frequency due to poor visibility
@@ -46,7 +51,7 @@ IMPAIREDREACTIONTIME = 1.0
 #	bus (longer, more aggressive)
 #	semi truck (slower, longer, better driver)
 
-# contains driver archetypes, which are just p_maps starting with their p to create.  A dictionary of dictionaries.
+# contains driver archetypes, which are just p_maps starting with their p to create.  A list of dictionaries.
 _archetypes_mu = []
 _archetypes_sd = []
 _car_types = [] # contains the availability of each archetype to each car type.  first value is chance to create that type.
@@ -57,6 +62,7 @@ _mu_dict = {}
 _timetable = []
 _onramp_loc = []
 _offramp_loc = []
+_car_sizes = [4.5, 5.3, 4.35, 2.1, 12.2, 17.5] #average lenths, in meters, of car types
 
 # when generating random event, use normal distribution with above properties.
 #    Compare to the P of the car's event from car.p_dict
@@ -65,6 +71,8 @@ _sunset = 0
 _accidnet_mod = 0 # increases or decreases globally, making all drivers worse at avoiding accidents.  increases during sunset and poor weather.
 
 def getNormal(key, mu_dict, sd_dict):
+	if sd_dict[key] is 0:
+		return mu_dict[key]
 	return numpy.random.normal(mu_dict[key], sd_dict[key])
 	
 def buildDictionaries(roadfilename): # parse file.  Crazy code warning
@@ -73,33 +81,41 @@ def buildDictionaries(roadfilename): # parse file.  Crazy code warning
 	if fin is None:
 		return 0	
 	lines = fin.readlines()
-	map(lambda x:x = map(int, x.split()),lines)
+	
+	for i in range(0, len(lines)):
+		lines[i] = lines[i].split()
+		for j in range(0, len(lines[i])):
+			lines[i][j] = float(lines[i][j])
+	print(lines)
+	
+	global _mu_dict, _onramp_loc, _offramp_loc, _archetypes_mu, _archetypes_sd, _car_sizes, _car_types, _timetable 
 	_timetable = lines[1:7]  # create chance to make new car at each hour, then assign the first one to the mu
-	[_mu_dict["BADWEATHER"], _mu_dict["MULTICARACCIDENT"], _mu_dict["TAKEEXIT"], _mu_dict["NEWCAR"]] = lines[0] + [timetable[0][1]]
-	[_onramp_loc, _offramp_loc] = [lines[8], lines[9]]
+	[_mu_dict["BADWEATHER"], _mu_dict["MULTICARACCIDENT"], _mu_dict["TAKEEXIT"], _mu_dict["NEWCAR"]] = lines[0] + [_timetable[0][1]]
+	_onramp_loc = lines[8]
+	_offramp_loc = lines[9]
 	for i in range(0, 9):
-		_archetypes_mu.append([lines[10][i]]) #create the archetype lists
-		_archetypes_sd.append([0]) # chance to spawn shouldn't be normal distribution! Road needs to be consistent
+		_archetypes_mu.append({ "CREATE" : lines[10][i]}) #create the archetype lists
+		_archetypes_sd.append({ "CREATE" : 0}) # chance to spawn shouldn't be normal distribution! Road needs to be consistent
 	for i in range(0, 6):
 		_car_types.append([lines[11][i]] + lines[12+i]) #create the car lists	
 	return 1
 	
 def buildArchetypes(archetpyefilename):
-	reutrn 1
+	return 1
 	
-def checkSunset():
-	#if ( time is sunset )
-	#	if (!_sunset)
-	#		_accident_mod += _mu_dict["SUNSET"]
-	#	return 1
-	#if (_sunset)
-	#	_accident_mod -= _mu_dict["SUNSET"] # consider making this continuous
-	#return 0
+def checkSunset(t):
+	if ( abs(t-SUNSET) < SUNSETLENGTH ):
+		if (not _sunset):
+			_accident_mod += SUNSETMOD
+			return 1
+	if (_sunset):
+		_accident_mod -= SUNSETMOD # consider making this continuous
+	return 0
 	
 # RANDOM EVENTS
 #	each event is a Markov chain sharing the car and lane states.
 #	cars do the side effect, and then return if they did it or not.
-	
+
 def checkSingleCarAccident(car, lane):
 	return 0
 	
@@ -118,14 +134,14 @@ def checkEngineFailure(car):
 #def createPmap(): #creates a random Pmap based on what's in _mu_dict and _sd_dict
 #	return dict()
 	
-def checkCreateNewCar(mindist, lane, t): #shared between beginning of each lane and on-ramps
+def checkCreateNewCar(mindist, lane, t): #shared between beginning of each lane
 	# TODO ajust pcreate by time of day
-	pcreate = _mu_dict["NEWCAR"] * (t/TMAX)
-	if (lane[0].getPosition > (lane[0].size + mindist)) and ( < pcreate):
+	pcreate = _mu_dict["NEWCAR"]
+	if (lane[0].getPosition() > (lane[0].size + mindist)) and ( random.random() < pcreate):
 		lanes[l].insert(0, createCar(t))
 		return 1
 	return 0
-
+	
 def checkChangeLane(lanes, car):
 	return 0
 
@@ -151,23 +167,21 @@ def createCar(t): # different times of day have different chances
 	
 	# now determine the archetype
 	roulette = random.random()
-	pscalar = # add all ps for the selected vechile type.  1/this is the scalar value
+	pscalar = 1# add all ps for the selected vechile type.  1/this is the scalar value
 	rtotal = 0
 	tau = SOBERREACTIONTIME
 	for i in range(0, len(_archetypes_mu)):
 		rtotal += _archetypes_mu[i]["CREATE"]
 		if(rtotal >= roulette):
-			if i is DRUNKDRIVER:
+			if i is DRUNK:
 				tau = IMPAIREDREACTIONTIME
-			for key, value in _archetypes_mu[i]:
+			for key in _archetypes_mu[i]:
 				pmap[key] = getNormal(key, _archetypes_mu[i], _archetypes_sd[i]) # normal distribution to model differing behaviors
-			return car(pmap, tau, t)
+			return Car(pmap, tau, t)
 	return None # shouldn't happen
 
 
 if __name__ == "__main__":
-	print("||| \n||| TRAFFIC JAMBULATOR 1000\n|||   by Derek Stotz and Charles Parsons\n|||\n")
-	
 	mu_dict = {} # a dictionary to hold probability keys
 	ncars = []
 	foutname = ""
@@ -188,25 +202,27 @@ if __name__ == "__main__":
 		foutname = lines[8]
 		
 	else:
-		road_len = int(input("Enter road_length:         "))
-		ncars.append(int(input("Enter ncars in lane1: ")))
-		ncars.append(int(input("Enter ncars in lane2: ")))
-		ncars.append(int(input("Enter ncars in lane3: ")))
-		ncars.append(int(input("Enter ncars in lane4: ")))
-		tstep = int(input("Enter timestep:       "))
-		tmax = int(input("Enter timemax:        "))
-		# lanes = int(input("Enter lanes: ")) the model is specifically for I-60 between the 71 and the 15
-		roadname = input("Enter road file:    ")
-		foutname = input("Enter output file:    ")
+		print("Usage: main.py <parameterfile>")
+	if not buildDictionaries(roadname):
+		print("Error building dictionaries!")
+	elif DEBUG:
+		print(_mu_dict)
+		print(_car_types)
+		print(_car_sizes)
+		print(_offramp_loc)
+		print(_onramp_loc)
+		print(_timetable)
+		print(_archetypes_mu)
+		print(_archetypes_sd)
 		
 	lanes = [[],[],[],[]] # 4 lanes
 	pcar = None
 	ccar = None
-	# create cars
+	# create initial cars
 	for j in range(0, NLANES):
 		for i in range(0, ncars[j]):
 			pcar = ccar
-			ccar = Car()
+			ccar = createCar(0)
 			ccar.prev_car = pcar
 			if not pcar is None:
 				pcar.next_car = ccar
@@ -214,10 +230,6 @@ if __name__ == "__main__":
 			if DEBUG: print("Making Car " + str(i))
 			
 	fout = open(foutname, mode="w")
-	
-	if not buildDictionaries(roadname):
-		print("Error building dictionaries!")
-		exit()
 	
 	# iterate at each time step
 	for t in range(0, tmax+1):
