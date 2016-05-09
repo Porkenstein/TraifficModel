@@ -71,14 +71,21 @@ _car_sizes = [4.5, 5.3, 4.35, 2.1, 12.2, 17.5] #average lenths, in meters, of ca
 _weather = 0
 _sunset = 0
 _accident_mod = 0 # increases or decreases globally, making all drivers worse at avoiding accidents.  increases during sunset and poor weather.
+_exited = 0
+_passed_through = 0
+_in_accident = 0
+_engine_fail = 0
 
 def getNormal(key, mu_dict, sd_dict):
+	if DEBUG: print("getNormal")
 	if sd_dict[key] is 0:
 		return mu_dict[key]
+	if DEBUG: print("mu_dict = " + str(mu_dict[key]) + ", key = " + str(key))
 	return numpy.random.normal(mu_dict[key], sd_dict[key])
 	
 def buildDictionaries(roadfilename): # parse file.  Crazy code warning
 	# parse the input files
+	if DEBUG: print("buildDictionaries")
 	fin = open(roadfilename, mode="r")
 	if fin is None:
 		return 0	
@@ -88,7 +95,6 @@ def buildDictionaries(roadfilename): # parse file.  Crazy code warning
 		lines[i] = lines[i].split()
 		for j in range(0, len(lines[i])):
 			lines[i][j] = float(lines[i][j])
-	print(lines)
 	
 	global _mu_dict, _onramp_loc, _offramp_loc, _archetypes_mu, _archetypes_sd, _car_sizes, _car_types, _timetable 
 	_timetable = lines[1:7]  # create chance to make new car at each hour, then assign the first one to the mu
@@ -104,6 +110,7 @@ def buildDictionaries(roadfilename): # parse file.  Crazy code warning
 	
 def buildArchetypes(archetpyefilename):
 	# parse the input files
+	if DEBUG: print("buildArchetypes")
 	fin = open(archetpyefilename, mode="r")
 	if fin is None:
 		return 0	
@@ -113,7 +120,7 @@ def buildArchetypes(archetpyefilename):
 		lines[i] = lines[i].split()
 		for j in range(0, len(lines[i])):
 			lines[i][j] = float(lines[i][j])
-	print(lines)
+
 	
 	global _archetypes_mu, _archetypes_sd 
 	i = 0
@@ -133,6 +140,8 @@ def buildArchetypes(archetpyefilename):
 	
 
 def checkSunset(t):
+	if DEBUG: print("checkSunset")
+	global _sunset, _accident_mod
 	if ( abs(t-SUNSET) < SUNSETLENGTH ):
 		if (not _sunset):
 			_accident_mod += SUNSETMOD
@@ -149,22 +158,29 @@ def checkSunset(t):
 #	cars do the side effect, and then return if they did it or not.
 
 def checkSingleCarAccident(car, lane):
-	if ( random.random() < car.pmap["SINGLECARACCIDENT"] ):
-		car.wrecked = 1
+	if DEBUG: print("checkSingleCarAccident")
+	global _in_accident
+	if ( random.random() < (1 / car.pmap["SINGLECARACCIDENT"]) ):
+		_in_accident += 1
+		car.wrecked = True
 		car.vel = 0
 		car.speed = 0
 		return 1
 	return 0
 	
 def checkMultiCarAccident(car1, car2, lane): # far more probably than single car
-	if ( random.random() < _mu_dict["MULTICARACCIDENT"] ):
-		car.wrecked = 1
+	if DEBUG: print("checkMultiCarAccident")
+	global _in_accident
+	if ( random.random() < (1 / _mu_dict["MULTICARACCIDENT"]) ):
+		_in_accident += 2
+		car.wrecked = True
 		car.vel = 0
 		car.speed = 0
 	return 0
 	
 def checkRoadRage(car, lane):
-	if ( random.random() < car.pmap["ROADRAGE"] ):
+	if DEBUG: print("checkRoadRage")
+	if ( random.random() < (1 / car.pmap["ROADRAGE"]) ):
 		if (not car.angry):
 			car.pmap = createPmap(ANGRY)
 			car.angry = 1
@@ -176,7 +192,9 @@ def checkRoadRage(car, lane):
 	
 	
 def checkWeather():
-	if ( random.random() < _mu_dict["WEATHER"] ):
+	if DEBUG: print("checkWeather")
+	global _weather, _accident_mod
+	if ( random.random() < (1 / _mu_dict["WEATHER"]) ):
 		if (not _weather):
 			_accident_mod += WEATHERMOD
 			_weather = 1
@@ -187,20 +205,26 @@ def checkWeather():
 	return 0
 	
 def checkEngineFailure(car): # just treat like a wreck for now
-	if ( random.random() < car.pmap["ENGINEFAILURE"] ):
-		car.wrecked = 1
+	if DEBUG: print("checkEngineFailure")
+	if DEBUG: print("Engine Failure Prob = " + str(car.pmap["ENGINEFAILURE"]))
+	global _engine_fail
+	if ( random.random() < (1 / car.pmap["ENGINEFAILURE"]) ):
+		_engine_fail += 1
+		car.wrecked = True
 		car.vel = 0
 		car.speed = 0
 		return 1
 	return 0
 	
 def createPmap(i): #creates a random Pmap based on what's in _mu_dict and _sd_dict
+	if DEBUG: print("createPmap")
 	pmap = {}
 	for key in _archetypes_mu[i]: # i is the archetype index
 		pmap[key] = getNormal(key, _archetypes_mu[i], _archetypes_sd[i]) # normal distribution to model differing behaviors
 	return pmap
 	
 def checkUpdateGlobals(t):
+	if DEBUG: print("checkUpdateGlobals")
 	checkWeather()
 	checkSunset(t)
 	# update incoming traffic density
@@ -212,15 +236,17 @@ def checkUpdateGlobals(t):
 	
 def checkCreateNewCar(mindist, lane, t): #shared between beginning of each lane
 	# TODO ajust pcreate by time of day
+	if DEBUG: print("checkCreateNewCar")
 	pcreate = _mu_dict["NEWCAR"]
-	if (random.random() < pcreate):
+	if (random.random() < (1 / pcreate)):
 		lane.insert(0, createCar(t))
 		return 1
 	return 0
 	
 def checkChangeLane(lanes, car):
+	if DEBUG: print("checkChangeLane")
 	dice = random.random()
-	if ( random.random() < car.pmap["CHANGELANE"] ):
+	if ( random.random() < (1 / car.pmap["CHANGELANE"]) ):
 		if j is (len(lanes)-1):
 			Car.changeLane(car.next_car, lanes[j-1]) # pass to right if crash is leftmost
 		elif j is 0 or dice < .5:
@@ -231,12 +257,19 @@ def checkChangeLane(lanes, car):
 	return 0
 
 def checkTakeExit(car, c, lanes, l):
-	if ( random.random() < _mu_dict["TAKEEXIT"] and l is 0): #rightmost lane
+	global _exited
+	if DEBUG: print("checkTakeExit")
+	r = random.random()
+	if ( r < (1 / _mu_dict["TAKEEXIT"]) and l is 0): #rightmost lane
+		_exited += 1
 		del lanes[l][c]
 	return 0
 	
 def updateCar(car, c, lanes, l, tstep, t, road_len):
+	global _passed_through
+	if DEBUG: print("updateCar")
 	if car.getPosition() >= road_len:
+		_passed_through += 1
 		del lanes[l][c]
 		return 0
 	#TODO change car attributes
@@ -246,12 +279,15 @@ def updateCar(car, c, lanes, l, tstep, t, road_len):
 	checkRoadRage(car, lanes[l])
 	checkSingleCarAccident(car, lanes[l]) #check for multicar accident in the main loop
 	# check to see if the car is out of bounds and needs to be removed
-	if not car.wrecked:
+	if DEBUG: print("Checking if wrecked before update, " + str(car.wrecked))
+	if car.wrecked != True:
 		car.update(tstep)
+	checkTakeExit(car, c, lanes, l)
 	return 1
 	
 def createCar(t): # different times of day have different chances
 	# determine the car type
+	if DEBUG: print("createCar")
 	roulette = random.random()
 	rtotal = 0
 	type = 0
@@ -355,5 +391,11 @@ if __name__ == "__main__":
 				fout.write("|  Lane "+str(j) + ", " + str(car) + "\n")
 				#if OUTPUT or DEBUG: print("|  Lane "+str(j) + ", " + str(car) + "\n")
 				c = c+1
+	print("Total cars passing through end of area: " + str(_passed_through))
+	print("Cars per hour: " + str(_passed_through / (TMAX / 60 / 60)))
+	print("Total cars that took the off-ramp: " + str(_exited))
+	print("Cars per hour that took the off-ramp: " + str(_exited / (TMAX / 60 / 60)))
+	print("Total cars in accidents: " + str(_in_accident))
+	print("Total cars suffering engine failure: " + str(_engine_fail))
 	# finalize
 	fout.close()

@@ -17,7 +17,7 @@ class Car:
 		#the speed that the driver would like to go, V_n
 		#this is set by a normal distribution centered on 110 km/h
 		#with standard deviation of 10 km/h
-		self.vel = np.random.normal(110, 10)
+		self.vel = np.random.normal(125, 3)
 		#a reference to the car that this car is following, n-1.  If next_car = None, then we know that this is the first
 		self.next_car = None
 		#a reference to the car following this one.
@@ -34,7 +34,7 @@ class Car:
 		#the location of the front of this vehicle at time t-tsteo, x_n(t-tstep)
 		self.pos_prev = 0
 		#the speed of this car at time t, v_n(t)
-		self.speed = np.random.normal(110, 10)
+		self.speed = np.random.normal(110, 7)
 		#the speed of this car at time t - tstep, v_n(t-tstep)
 		self.speed_prev = self.speed
 		# contains the probabilities for different events relevent to this single car
@@ -46,7 +46,18 @@ class Car:
 		# road raging?
 		self.angry = 0
 		# wrecked?
-		self.wrecked = 0
+		self.wrecked = False
+
+	def printCarInfo(self):
+		print("car id = " + str(self.id))
+		print("V_n = " + str(self.vel))
+		print("a_n = " + str(self.accel))
+		print("b_n = " + str(self.brake))
+		print("S_n = " + str(self.size))
+		print("Previous Pos = " + str(self.pos_prev))
+		print("Pos = " + str(self.pos))
+		print("Speed = " + str(self.speed))
+		
 	
 	# getters and setters for the next and previous cars
 	def getPrevCar(self):
@@ -77,9 +88,9 @@ class Car:
 		# TODO: make sure that cars aren't spawning on top of each other
 		try:
 			self.speed = min(self.speed + 2.5 * self.accel * self.tau * (1 - (self.speed / self.vel)) * \
-				math.sqrt(0.025 + self.speed / self.vel), self.brake * self.tau + math.sqrt(self.brake**2 \
+				math.sqrt(abs(0.025 + self.speed / self.vel)), self.brake * self.tau + math.sqrt(abs(self.brake**2 \
 				* self.tau**2 - self.brake * (2 * (prev_car.pos - prev_car.size - self.pos) - \
-				self.speed * self.tau - (prev_car.speed**2) / min(-3.0, (self.brake - 3.0) / 2))))
+				self.speed * self.tau - (prev_car.speed**2) / min(-3.0, (self.brake - 3.0) / 2)))))
 		except ValueError:
 			print("ValueError.  Taking Square root of " + str((self.brake**2 \
 				* self.tau**2 - self.brake * (2 * (prev_car.pos - prev_car.size - self.pos) - \
@@ -115,7 +126,19 @@ class Car:
 		
 	@staticmethod
 	def changeLane(car, lane):
-		pass
+		for c in lane:
+			if not c is None and not car is None:
+				if car.pos > c.pos:
+					if not c.next_car is None and not c.next_car.prev_car is None:
+						c.next_car.prev_car = car
+						c.next_car = car
+						if not car.next_car is None:
+							car.next_car.prev_car = car.prev_car
+						if not car.prev_car is None:
+							car.prev_car.next_car = car.next_car
+						car.next_car = c.next_car
+						car.prev_car = c
+
 		
 	@staticmethod
 	def remove(car, lane):

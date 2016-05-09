@@ -30,7 +30,7 @@ THIS FILE CONTAINS PROBABILITIES FOR EACH RANDOM ELEMENT LISTED BELOW
 
 # random stuff chances
 # 1/p bad weather, multicar accident following single car accident, take exit
-100000 10 50
+100000 8000 50
 
 # 1/p chances to spawn cars each second per lane, defined by the hour (7)
 0 2
