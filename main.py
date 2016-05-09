@@ -67,6 +67,7 @@ def checkSunset():
 	#if (_sunset)
 	#	_accident_mod -= _mu_dict["SUNSET"] # consider making this continuous
 	#return 0
+
 	
 # RANDOM EVENTS
 #	each event is a Markov chain sharing the car and lane states.
