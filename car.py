@@ -23,7 +23,7 @@ class Car:
 		#a reference to the car following this one.
 		self.prev_car = None
 		#the maximum acceleration the driver is willing to undertake, a_n
-		self.accel = np.random.normal(5, 1)
+		self.accel = np.random.normal(3, 1)
 		#the most severe breaking the driver is willing to undertake, b_n
 		self.brake = np.random.normal(-5, 1)
 		#the size of the vehicle plus a margin that drivers are not willing to intrude
@@ -122,4 +122,4 @@ class Car:
 		if not car.prev_car is None:
 			car.prev_car.next_car = car.next_car
 		if not car.next_car is None:
-			car.next_car.
+			car.next_car.prev_car = car.prev_car
