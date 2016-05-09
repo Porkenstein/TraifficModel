@@ -32,7 +32,7 @@ THIS FILE CONTAINS PROBABILITIES FOR EACH RANDOM ELEMENT LISTED BELOW
 # 1/p bad weather, multicar accident following single car accident, take exit
 100000 10 50
 
-# 1/p chances to spawn cars each second  per lane in different times of day
+# 1/p chances to spawn cars each second per lane, defined by the hour (7)
 0 2
 3600 3
 7200 4
@@ -40,6 +40,12 @@ THIS FILE CONTAINS PROBABILITIES FOR EACH RANDOM ELEMENT LISTED BELOW
 14400 2
 18000 1
 21600 4
+
+# locations of on-ramps
+9304
+
+# locations of off ramps
+9364
 
 # chances to spawn archetypes
 .1 .5 .05 .05 .1 .1 .05 .04 .01
